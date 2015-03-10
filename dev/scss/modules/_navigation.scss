@@ -1,0 +1,86 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  @include clearfix;
+  text-align: center;
+  font-weight: bold;
+  font-color: #3a3024;
+  padding-top: 11px; 
+  margin-top: -145px;
+  margin-left: 0px;
+  
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-list {
+	display: block;
+	margin: 0px;
+  margin-left: 257px;
+  width:621px;
+}
+
+.Navigation-link.is-active {
+  color: $c-green;
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+  display: block;
+  margin: 7px 1.07143rem;
+  float: left;
+  &:first-of-type {
+    margin-left: -20px;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+  a {
+    color: #3a3024;
+    text-decoration: none;
+    font-size: 13px;
+    }
+  a:hover {
+    color: $c-green;
+    font-weight: 1000;
+    }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  text-transform: uppercase;
+}
+
+.Navigation-link--invertedBold {
+  color: $c-white; 
+  font-weight: bold;
+}
