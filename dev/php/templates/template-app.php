@@ -7,12 +7,21 @@ Template Name: App page
 <?php get_header(); ?>
 
 	<div>
+	<div class="titelplaatje">
+		<!--<img class="titel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.png">-->
+	<div class="Spacebar">
+		<div class="u-gridContainer">
+			<h2><?php the_title(); ?></h2>
+		</div>
+				
+	</div>
+	</div>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div class="Content Content--app" id="post-<?php the_ID(); ?>">
 			<div class="u-gridContainer">
-				<h2><?php the_title(); ?></h2>
+				<h2></h2>
 				<aside class="u-gridCol4">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/screenshot.png" class="App-iphone" />
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/iphone.png" class="App-iphone" />
 				</aside>
 				<article class="Content-article u-gridCol8" id="post-<?php the_ID(); ?>">
 					<?php // the_content(); ?>

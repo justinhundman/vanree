@@ -12,7 +12,7 @@
 
 // -------------------------------------
 // Module specific variables
-// -------------------------------------
+// ------------------------------------- 
 
 // -variable
 
@@ -63,33 +63,49 @@
  
 // ----- Slider ----- //
 .header-onderkant-slider-text1{
-  font-size: 28px;
-  background: black;
+  font-size: 24px;
+  background: #43423d;
   opacity: 0.8;
   color: white;
   padding: 1.5% 7.5%;
   z-index: 1;
   text-align: left !important;
+  width: 388px;
 }
 
 .header-onderkant-slider-text2{
-  font-size: 21px;
+  font-size: 20px;
   font-weight: bold;
   background: white;
   opacity: 0.8;
   color: black;
   padding: 2% 7%;
   z-index: 1;
+  width: 647px;
 }
 
 .header-onderkant-slider-text3{
   font-size: 16px;
   font-weight: bold;
-  background: black;
+  background: #43423d;
   opacity: 0.8;
   color: white;
   padding: 1.7% 1.5%;
-  z-index: 1;
+  z-index: 9999999;
+}
+
+.neem{
+  font-size: 16px;
+  font-weight: bold;
+  background: #43423d;
+  opacity: 0.8;
+  padding: 1.7% 1.5%;
+  z-index: 9999999;
+  float:right;
+  margin-top: -53px;
+  a{
+    color: white !important;
+  }
 }
 
 .titel_tekst{
@@ -150,7 +166,7 @@
   margin-top: -22px;
   padding: 5px;
   padding-bottom: 41px;
-  height: 268px;
+  height: 302px;
   h2{
     font-size: 18px;
     color: $c-green;
@@ -165,14 +181,16 @@
   h2{
     color: white;
     background-color: #25511e;
-  }
+  } 
 }
 
 .titelplaatje{
   position: relative;
+  background-image: url("../img/slider3.png");
+  background-size: cover;
+  height: 379px;
   img{
     width: 1920px;
-    
   }
 }
 

@@ -41,17 +41,30 @@
   </head>
   <body <?php body_class(); ?> >
 <div class="menubalk-top">
-
     <div class="u-gridContainer">
         <div class="u-gridRow">
-            <div class="u-gridCol4">
+            <div class="u-gridCol8">
                 <a href="/home">
                     <div class="logo">
                         <img>   
                     </div>  
                 </a>
             </div>
-        
+             <div class="u-gridCol4 iconenres">
+             <div class="Mob-contact-ico">
+                    <a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:015 – 361 09 78">
+                        <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                            <use xlink:href="#icon-phone"></use>
+                        </svg>
+                    </a>
+                
+                        <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@groenspecialisten.nl">
+                        <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                            <use xlink:href="#icon-envelope"></use>
+                        </svg>
+                    </a>
+            </div>
+            </div>
 
         <div class="Bot-Nav"></div>
 	
@@ -62,24 +75,11 @@
 				</svg>
 			</a>
 		</div>
-        <div class="u-gridCol7">
+        <div class="u-gridCol10">
 		  <?php include 'includes/navigation.php'; ?>
                          
 		</div>
 
-		<div class="Mob-contact-ico">
-			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:015 – 361 09 78">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-phone"></use>
-				</svg>
-			</a>
-		
-                <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@groenspecialisten.nl">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-envelope"></use>
-				</svg>
-			</a>
-		</div>
         <div>
              <a href="https://www.facebook.com/pages/Van-Ree-Groenspecialisten/432143736857680?fref=ts" target="_blank">
                     <img class="facebook" src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png"> 
@@ -87,7 +87,12 @@
         </div>  
 
 	   </div>
+       <div class="neem">
+        <a style="text-decoration: none" href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/envelope.png">&nbsp;&nbsp;NEEM CONTACT OP</a>
+        </div>
+       
     </div>
   </div>
 
 </div>
+    

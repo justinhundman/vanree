@@ -6,7 +6,7 @@ define("GF_THEME_IMPORT_FILE", "includes/gravityforms-contactform.xml");
 add_action( 'init', 'register_menu_sitemap' );
 
 function register_menu_sitemap(){
-	register_nav_menus( array(
+	register_nav_menus( array( 
 		'sitemap' => 'Sitemap'
     ));
 }
@@ -30,5 +30,16 @@ if(is_admin() && !$initialized){
 
 
 include_once('includes/antispam.php');
+if ( function_exists('register_sidebar') ) {
+    register_sidebar(array(
+      'name' => 'Homepage',
+      'description'   => 'Dit is het rechter blokje op de homepage',      
+      	'id'=>'homepage',
+        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+        'after_widget' => '</li>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+    ));
+}
 
-?>
+

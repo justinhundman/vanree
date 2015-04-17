@@ -11,17 +11,21 @@
 					<p>ADRES</p>
 					<ul>
 						<li>Nieuwkoopseweg 19a</li>
-						<li>2641 PA Pijnacker</li>
+						<li>2641 PA Pijnacker-Nootdorp</li>
 						<li>Nederland</li>
 					</ul>
 				</div>
 				<div class="u-gridCol3 footer-contact">
 					<p>CONTACT</p>
 					<ul>
-						<li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png">&nbsp;&nbsp;015 - 361 10 979</li>
-						<li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/envelope.png">&nbsp;&nbsp;info@groenspecialisten.nl</li>
+						<a href="tel:01536110979"><li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png">&nbsp;&nbsp;015 - 361 10 979</li></a>
+						<a href="mailto:info@groenspecialisten.nl" target="_top"><li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/envelope.png">&nbsp;&nbsp;info@groenspecialisten.nl</li></a>
 					</ul>
 				</div>
+				<div class="u-gridCol2" style="margin-right: 0px;">
+						<p>SITEMAP</p>
+						<?php dynamic_sidebar( 'footer-widgets' ); ?>	 
+					</div>
 			</div>
 	</div>
 </div>
@@ -49,6 +53,7 @@
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/prepend-svg.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/google-maps.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/scroll.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/slider2.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.start.js"></script>
   <script src="http://localhost:35729/livereload.js"></script>

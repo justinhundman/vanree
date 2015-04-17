@@ -2,6 +2,7 @@
 
 }
 .content-box{
+	height: 374px;
 	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 .white-content{
@@ -28,16 +29,37 @@
 		}
 }
 
+.logocontact{
+	  	margin-bottom: 10px;
+  		margin-left: -7px;
+}
+
+.meerweten {
+  background: $c-green; 
+  border-radius: 3px;
+  color: white;
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  max-width: 190px;
+}
+
 .Spacebar{
 	width:100%;
 	background: rgba(37, 81, 30, 0.8);
 	position:absolute;
-	bottom:6px;
+	bottom:0px;
 	h2{
 		color: white;
 		text-transform: uppercase;
 		line-height:0;
 }
+}
+
+.appel{
+	width: 54px;
 }
 
 .maandaanbieding{
@@ -52,7 +74,7 @@
 }
 
 .black-header-text{
-	background:#000;
+	background:#43423d;
 	height:45px;
 	p{
 		margin-top: 0px;
@@ -92,10 +114,16 @@
 	margin-right: 23px;
 }
 
+.tuingeluk{
+  margin-right: 20px;
+  float: left;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
  
 .video-container iframe,
@@ -119,11 +147,22 @@
 	}
 }
 
+.Mob-contact-ico{
+	a{
+		margin-left: 241px !important;
+		margin-top: 7px !important;
+	}
+}
+
 .contactspace{
 	position: relative;
 	h2 {
 		opacity: 0.8;
 	}
+}
+
+.iconenres{
+	margin-left: 100px;
 }
 
 .accordion {
@@ -204,6 +243,121 @@
 	display:none;
 }
 
+
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999; 
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.klanten{
+	float: left;
+}
+
+.post{
+	p{
+		margin-top: 42px;
+	}
+}
+
+label[for=comment]
+{
+    display: none;
+}
+
+#submit{
+  background-color: #214b19;
+  color: white;
+  border: none;
+  padding-left: 5px;
+  border: 2px;
+  border-radius: 10px;
+  padding-right: 13px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.form-allowed-tags{
+	display: none;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+.white-content2{
+  height: 305px;
+  padding: 10px;
+  background: white;
+} 
+ 
+.type-post{
+	border-bottom: 1px solid #43423d;
+	height: auto !important;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.gform_wrapper .gfield_required {
+  color: $c-green !important;
+  margin-left: 4px;
+}
+
+.responsivediensten{
+	display:none;
+	h3 {
+		margin-bottom: 0px;
+	}
+}
+
+.sfeertekst{
+	display:none;
+	text-align: center;
+	h3{
+		text-align: center;
+	}
+}
+
+.lastest-news{
+	h3{
+		display: none;
+	}
+}
+
+.widget_recent_entries{
+	ul{
+		li{
+			  border-bottom: 1px solid #43423d;
+			  margin-bottom: 14px;
+		}
+	}
+}
+
 //
 
 @media all and (max-width: 1240px) { 
@@ -221,7 +375,19 @@
 .header-onderkant-slider-text1{
 	display: none;
 }
+.keynote{
+	display: none;
+}
+.responsivediensten{
+	display: block !important;
 } 
+.sfeertekst{
+	display: block !important;
+}
+.container{
+	display: none;
+}
+}
 
 @media all and (max-width: 800px) { 
 .header-onderkant-slider-text2{
@@ -257,14 +423,7 @@
 	}
 } 
 
-@media all and (max-width: 790px) { 
- 	.titelplaatje {
-	height: 169px;
-	img{
-		display:none;
-	}
-	}
-} 
+
 
 @media all and (max-width: 410px) { 
  	.bx-wrapper img {
@@ -274,4 +433,6 @@
 }
 } 
 
-
+.header-onderkant-slider-text3{
+	display: none;
+}

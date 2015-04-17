@@ -6,7 +6,7 @@ Template Name: Contactpage
 
 <?php get_header(); ?>
 		<div class="titelplaatje">
-			<img class="titel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.png">
+			<!--<img class="titel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.png">-->
 			<div class="Spacebar">
 		<div class="u-gridContainer">
 			<h2><?php the_title(); ?></h2>
@@ -26,7 +26,7 @@ Template Name: Contactpage
 									</div>
 
 								</div> <!-- /gridRow -->
-
+ 
 								<div class="hr-style super-margin">
 									<hr>
 								</div>
@@ -37,9 +37,9 @@ Template Name: Contactpage
 									</div>
 									<div class="adress u-gridCol4">
 										<div class="adress-info">
-											<img class="logocontact" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"> 
+											<img class="logocontact" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logocontact.png"> 
 											<p>Nieuwkoopseweg 19A</p>
-											<p>2641 PA Pijnacker</p>
+											<p>2641 PA Pijnacker-Nootdorp</p>
 											<p>Email: info@groenspecialisten.nl</p>
 											<p>Tel: 015 – 361 09 78</p>
 										</div>

@@ -17,9 +17,7 @@
 	max-width: 100%;
 	display: block;
 }
- .bx-viewport {
- 	margin-top:50px;
- }
+
 /** THEME ===================================*/
 
 .bx-wrapper .bx-viewport {
@@ -29,7 +27,7 @@
 	//border:  5px solid #fff;
 	//left: -5px;
 	background: #fff;
-	margin-top:15px !important;
+
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -54,11 +52,12 @@
 .bx-wrapper .bx-loading {
 	min-height: 50px;
 	background: url(../img/bx_loader.gif) center center no-repeat #fff;
-	height: 686px;
+	height: 100%;
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: 2000;
 }
 
 /* PAGER */
@@ -70,7 +69,6 @@
 	font-weight: bold;
 	color: #666;
 	padding-top: 20px;
-	display:none;
 }
 
 .bx-wrapper .bx-pager .bx-pager-item,
@@ -199,4 +197,3 @@
 	font-size: .85em;
 	padding: 10px;
 }
-
