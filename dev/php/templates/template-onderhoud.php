@@ -8,7 +8,7 @@ Template Name: ONDERHOUD
 
 
  	<div class="titelplaatje">
-        <img class="titel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.png">
+        <!--<img class="titel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.png">-->
         <div class="Spacebar">
             <div class="u-gridContainer"> 
                 <h2><?php the_title(); ?></h2>
@@ -18,6 +18,7 @@ Template Name: ONDERHOUD
 	<div class="u-gridContainer">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<article class="Content Content--fullwidth" id="post-<?php the_ID(); ?>">
+			<a href="/home">Home</a>&nbsp;>&nbsp;<a href="/diensten">Diensten</a>&nbsp;>&nbsp;Onderhoud
 			<div>
 				<?php the_content(); ?>
 				<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>

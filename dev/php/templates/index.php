@@ -19,6 +19,7 @@
 	</div>
 	</div>
 	<div class="u-gridContainer">
+	<a href="/home">Home</a>&nbsp;>&nbsp;Nieuws
 	<?php if (have_posts()) : ?>
 
 		<?php while (have_posts()) : the_post(); ?>
@@ -27,7 +28,6 @@
 				<span class="italic"><?php the_time( get_option( 'date_format' ) ); ?></span>
 				<div><?php the_content('Read the rest of this entry &raquo;'); ?></div>
 				<p><?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
-				<div class="fb-share-button" data-href="<?php echo   "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>" data-layout="button"></div>
 			</article>
 
 		<?php endwhile; ?>

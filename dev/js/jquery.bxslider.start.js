@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
     auto: true,
     speed: 500,
     infiniteLoop: true,
-    hideControlOnEnd: true,
+    hideControlOnEnd: false,
     touchEnabled: false,
     pager: true,
     controls: false,

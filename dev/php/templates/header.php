@@ -21,7 +21,7 @@
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/apple-touch-icon.png">
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -43,7 +43,8 @@
 <div class="menubalk-top">
     <div class="u-gridContainer">
         <div class="u-gridRow">
-            <div class="u-gridCol8">
+            
+            <div class="u-gridCol2">
                 <a href="/home">
                     <div class="logo">
                         <img>   
@@ -65,8 +66,15 @@
                     </a>
             </div>
             </div>
+            <a href="/home">
+            <img class="logores" style="width: 83px;" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
+            </a>
 
-        <div class="Bot-Nav"></div>
+          <?php include 'includes/navigation.php'; ?>
+                         
+        
+
+        </div>
 	
 		<div class="Nav-toggle u-cf">
 			<a class="Navigation-menuToggle" id="js-navCollapse">
@@ -75,21 +83,17 @@
 				</svg>
 			</a>
 		</div>
-        <div class="u-gridCol10">
-		  <?php include 'includes/navigation.php'; ?>
-                         
-		</div>
-
+      
         <div>
              <a href="https://www.facebook.com/pages/Van-Ree-Groenspecialisten/432143736857680?fref=ts" target="_blank">
                     <img class="facebook" src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png"> 
             </a>  
         </div>  
-
-	   </div>
-       <div class="neem">
-        <a style="text-decoration: none" href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/envelope.png">&nbsp;&nbsp;NEEM CONTACT OP</a>
+        <div class="neem">
+        <a style="text-decoration: none" href="/contact"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/envelope.png">&nbsp;&nbsp;NEEM CONTACT OP</a>
         </div>
+	   </div>
+       
        
     </div>
   </div>

@@ -7,7 +7,7 @@
 				<div class="u-gridCol3 footer-contact">
 					<a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/footer-logo.png" ></a>
 				</div>
-				<div class="u-gridCol3 footer-adres">
+				<div class="u-gridCol3 footer-adres" style="margin-right: 0px; margin-left: 21px;">
 					<p>ADRES</p>
 					<ul>
 						<li>Nieuwkoopseweg 19a</li>
@@ -15,18 +15,18 @@
 						<li>Nederland</li>
 					</ul>
 				</div>
-				<div class="u-gridCol3 footer-contact">
+				<div class="u-gridCol3 footer-contact" style="margin-right: 0px; margin-left: 21px;">
 					<p>CONTACT</p>
 					<ul>
-						<a href="tel:01536110979"><li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png">&nbsp;&nbsp;015 - 361 10 979</li></a>
+						<a href="tel:015 – 361 09 78"><li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png">&nbsp;&nbsp;015 – 361 09 78</li></a>
 						<a href="mailto:info@groenspecialisten.nl" target="_top"><li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/envelope.png">&nbsp;&nbsp;info@groenspecialisten.nl</li></a>
 					</ul>
 				</div>
-				<div class="u-gridCol2" style="margin-right: 0px;">
+				<div class="u-gridCol2" style="margin-right: 0px; margin-left: 21px;">
 						<p>SITEMAP</p>
 						<?php dynamic_sidebar( 'footer-widgets' ); ?>	 
 					</div>
-			</div>
+			</div>  
 	</div>
 </div>
 
@@ -35,7 +35,7 @@
 			<!-- Copyright info -->
 			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
 					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
-			</p>
+			</p> 
 		</div>
 	</div>
 

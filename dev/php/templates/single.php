@@ -12,13 +12,17 @@
 	<div class="titelplaatje">
 		<!--<img class="titel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.png">-->
 	<div class="Spacebar">
-		<div class="u-gridContainer">
+		<div class="u-gridContainer mobileweg">
 			<h2><?php the_title(); ?></h2>
+		</div>
+		<div class="u-gridContainer mobiletitle">
+			<h5><?php the_title(); ?></h5>
 		</div>
 				
 	</div>
 	</div>
 	<div class="u-gridContainer">
+		<a href="/home">Home</a>&nbsp;>&nbsp;<a href="/nieuws">Nieuws</a>&nbsp;>&nbsp;Bericht
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">

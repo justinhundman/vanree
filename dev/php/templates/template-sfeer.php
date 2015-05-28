@@ -14,31 +14,32 @@ Template Name: Sfeer
 	</div> 
     </div>
 	<div class="u-gridContainer">
+		<a href="/home">Home</a>&nbsp;>&nbsp;Sfeer impressie
 		<div class="u-gridRow">
 			<div class="sfeertekst">
 				<a href="/landelijk">
 					<h3>LANDELIJK</h3>
 				</a>
-				<a href="#">
+				<a href="/modern-2">
 					<h3>MODERN</h3>
 				</a>
-				<a href="#">
+				<a href="/daktuin">
 					<h3>DAKTUIN</h3>
 				</a>
-				<a href="#">
+				<a href="/klassiek-2">
 					<h3>KLASSIEK</h3>
 				</a>
-				<a href="#">
+				<a href="/onderhoud-3">
 					<h3>ONDERHOUD</h3>
 				</a>
-				<a href="#">
+				<a href="/zakelijk-2">
 					<h3>ZAKELIJK</h3>
 				</a>
 			</div>
 			<div class="u-gridCol6">
 					<div class="container">
 					  <div class="keynote">
-					    <img src="http://vanreegroenspecialisten.lijktmeduidelijk.nl/files/2015/04/landelijk.png" />
+					    <img src="http://vanreegroenspecialisten.lijktmeduidelijk.nl/files/2015/04/landelijk.jpg" />
 					    <div class="keynote-desc">
 					      <p class="keynote-name">LANDELIJK</p>
 					      <br>

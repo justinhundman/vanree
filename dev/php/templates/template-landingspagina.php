@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Homepage-2
+Template Name: Landingspagina
 */
 ?>
 
@@ -101,7 +101,7 @@ Template Name: Homepage-2
                                 <h2 class="titels">WIE ZIJN WIJ</h2>
                                     <p class="tekst_home">U wilt Gelukkig zijn in een duurzame, stijlvolle maar vooral GROENE tuin van hoge kwaliteit, die voldoet aan uw persoonlijke tuinwensen? Dan moet u bij Van Ree Groenspecialisten zijn! 
                                     </p>
-                             </div>
+                             </div> 
                              <div class="keurmerkmargin">
                                     <div class="u-gridCol3 keurmerk">
                                             <a href="http://www.tuingeluk.nl/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tuingeluk.gif" style="width:256px"></a>  
@@ -112,6 +112,17 @@ Template Name: Homepage-2
                                             <a href="http://www.exclusiefgeselecteerd.nl/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/exclusief.png"></a>
                                     </div>
                             </div>
+                        </div>
+                         <div class="u-gridRow">
+                            <div class="u-gridCol12">
+                                <article class="Content Content--leftsidebar" id="post-<?php the_ID(); ?>">
+                                <h2><?php the_title(); ?></h2>
+                                <div>
+                               <?php the_content(); ?>
+                                 <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+                                </div>
+                                </article>
+                             </div>
                         </div>
                 	</div>
 <?php get_footer(); ?>

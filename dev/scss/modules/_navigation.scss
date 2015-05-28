@@ -11,9 +11,9 @@
   font-weight: bold;
   font-color: #3a3024;
   padding-top: 11px; 
-  margin-top: -145px;
+  margin-top: -4px;
   margin-left: 0px;
-  width: 1000px;
+  width: 100%;
 }
 
 // -------------------------------------
@@ -34,11 +34,12 @@
 	display: block;
 	margin: 0px;
   margin-left: 257px;
-  width: 646px; 
+  width: 100%;
 }
 
 .Navigation-link.is-active {
-  color: $c-green;
+  color: #042d00;
+  font-weight: inherit;
 }
 
 // -------------------------------------
@@ -58,7 +59,7 @@
   margin: 7px 1.07143rem;
   float: left;
   &:first-of-type {
-    margin-left: -20px;
+    margin-left: 0px;
   }
   &:last-of-type {
     margin-right: 0;

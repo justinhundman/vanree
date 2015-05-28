@@ -16,8 +16,8 @@ Template Name: Over ons
 				
 	</div>
 	</div>
-	
 		<article class="Content Content--fullwidth u-gridContainer titelklein" id="post-<?php the_ID(); ?>">
+			<a href="/home">Home</a>&nbsp;>&nbsp;Over ons
 						<div class="Content-entry contactspace">
 				<div class="u-gridRow">
 					<div class="u-gridCol12 hetteam">		
